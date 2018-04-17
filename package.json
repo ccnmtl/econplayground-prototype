@@ -1,0 +1,33 @@
+{
+  "name": "econplayground-prototype",
+  "version": "0.0.0",
+  "description": "A static prototype for Econplayground",
+  "main": "index.js",
+  "scripts": {
+    "watch-scss": "node-sass --output css scss/main.scss && postcss -u autoprefixer -r css/main.css",
+    "build-scss": "nodemon -e scss -x 'npm run watch-scss'",
+    "runserver": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ccnmtl/econplayground-prototype.git"
+  },
+  "author": "Center for Teaching and Learning, Columbia University",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/ccnmtl/econplayground-prototype/issues"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.2.2",
+    "eslint": "~4.8.0",
+    "eslint-config-scanjs": "^1.0.0-beta4",
+    "eslint-plugin-no-unsafe-innerhtml": "^1.0.16",
+    "eslint-plugin-security": "^1.4.0",
+    "node-sass": "^4.7.2",
+    "nodemon": "^1.12.5",
+    "postcss-cli": "^4.1.1",
+    "http-server": "^0.11.1"
+  },
+  "homepage": "https://github.com/ccnmtl/histologylab-static#readme",
+  "dependencies": {}
+}
