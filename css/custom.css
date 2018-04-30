@@ -1,0 +1,25 @@
+.btn-primary { background-color: #0e48a1; }
+
+.lead { margin-bottom: 3em; }
+
+.embed-responsive {border: 1px solid #ced4da; border-radius: .25rem;}
+
+p a, li a, h3 a { color: #0e48a1; }
+
+* { font-family: 'Roboto', sans-serif; }
+
+h1
+{
+	color: #0e48a1;
+	font-weight: 900;
+}
+
+h2
+{
+	margin-top: 1em;
+	font-weight: 700;
+}
+
+h3, p.lead { font-weight: 600; }
+h3 { margin-top: 1em; }
+footer { margin: 3em 0em 3em 0em; }
