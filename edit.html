@@ -8,7 +8,7 @@
     
     <link rel="icon" href="#">
 
-	<title>EconPractice | Explore</title>
+	<title>EconPractice | Edit Graph</title>
 
     <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans" rel="stylesheet">
 
@@ -52,101 +52,328 @@
 				<p class="lead text-secondary">
 					Add and modify the information of your graph.
 				</p>
-				
+                
+                <div class="alert alert-danger" role="alert">Oops! Error mesages go here.</div>
+
+                <ul class="nav justify-content-center">
+                    <li class="nav-item"><a class="nav-link" href="#slope">Slope</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#lines">Lines</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#labels">Labels</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#details">Details</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#assignment">Assignment</a></li>
+                </ul>
+                
 				<form>
 				
-                    <div class="alert alert-danger" role="alert">Error mesages go here.</div>
-				
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                  <small class="justify-content-center d-flex position-absolute w-100">Slider Goes Here</small>
-                </div>					
+					<div>
+					<img class="img-fluid" src="https://dummyimage.com/1600x500/eeeeee/333333.png&text=Graph" />
+				    </div>
+				    
+ 				     <figcaption class="figure-caption text-center">Based on "Aggregate Demand/Aggregate Supply"</figcaption>
                     
-                    <h2>
-						Section Title
-					</h2>
-					
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed semper aliquam ante at iaculis. Donec in dapibus diam. Proin quis ultrices sapien. Fusce imperdiet sapien ex, nec pellentesque sapien malesuada sed. Suspendisse pellentesque tempor pulvinar. Cras vehicula metus ac felis volutpat, vitae interdum eros fringilla. Cras at diam elit. Etiam lobortis sagittis molestie. Donec sed sem molestie dolor iaculis tempus. 
-                    <p>
                     
-					<div class="form-group">
-						<label for="exampleFormControlInput1">Email address</label> 
-						<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-					</div>
-					
-					<div class="form-group">
-						<label for="exampleFormControlSelect1">Example select</label> 
-						<select class="form-control" id="exampleFormControlSelect1">
-							<option>1</option>
-							<option>2</option>
-							<option>3</option>
-							<option>4</option>
-							<option>5</option>
-						</select>
-					</div>
-					
-					<div class="embed-responsive embed-responsive-21by9">
-						<iframe class="embed-responsive-item" src="graph.html" allowfullscreen></iframe> 
-					</div>
-					
-                    <div class="alert alert-success" role="alert">
-                      Correct Answer
-                    </div>
+                    <hr />
                     
-                    <div class="alert alert-danger" role="alert">
-                      Incorrect Answer
-                    </div>				
-                    
-					<h2>
-						Section Title
-					</h2>
-					
-					<div class="form-group">
-						<label for="exampleFormControlTextarea1">Example textarea</label> <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea> 
-					</div>
-					
-					<h2>
-						Section Title
-					</h2>
-					
-					<div class="form-check form-check-inline">
-						<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-						<label class="form-check-label" for="inlineRadio1">1</label> 
-					</div>
-					
+                    <a name="slope"></a>
+                    <h2>Slope</h2>
+                   
+                   
+                   <div class="row">
+                   
+                   <div class="col">
+                   
+                <div class="form-group">
+                    <label for="formControlRange"><span class="">Blue Line</span></label>
+                    <input type="range" class="form-control-range" id="formControlRange">
 					<div class="form-check form-check-inline">
 						<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-						<label class="form-check-label" for="inlineRadio2">2</label> 
+						<label class="form-check-label" for="inlineRadio2">Vertical</label> 
 					</div>
-					
+                  </div>					
+                   
+                  </div>					
+                   <div class="col">
+                   
+                <div class="form-group">
+                    <label for="formControlRange">Orange Line</label>
+                    <input type="range" class="form-control-range" id="formControlRange">
 					<div class="form-check form-check-inline">
-						<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" disabled>
-						<label class="form-check-label" for="inlineRadio3">3 (disabled)</label> 
+						<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+						<label class="form-check-label" for="inlineRadio2">Vertical</label> 
 					</div>
-					
-					  <div class="form-group">
-                        <label for="label1">Label</label>
-                        <input type="text" readonly class="form-control" id="label1" value="Read-Only Code">
-                        </div>
-                                
-					  <div class="form-group">
-                        <label for="label1">Label</label>
-                        <input type="text" readonly class="form-control" id="label1" value="Read-Only Code">
-                        </div>
-                                
-					<div class="form-group">
-                        <a href="#" class="btn btn-light">Download</a>
+                  </div>	
+                   
+                                     </div>					
+
+                   <div class="col">
+                   
+                <div class="form-group">
+                    <label for="formControlRange">Red Line</label>
+                    <input type="range" class="form-control-range" id="formControlRange">
+					<div class="form-check form-check-inline">
+						<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+						<label class="form-check-label" for="inlineRadio2">Vertical</label> 
 					</div>
-					
+ 					<div class="form-check form-check-inline">
+						<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+						<label class="form-check-label" for="inlineRadio2">Horizontal</label> 
+					</div>
+                  </div>					
+	                   
+	                                     </div>					
+
+	                   
+	                   </div>
+                   
+                   <hr />
+                   
+                    <a name="lines"></a>
+                    <h2>Lines</h2>
+                   
+				
+                    <div class="form-group">
+                                            
+                        
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                              <label class="form-check-label" for="inlineCheckbox1">Show Orange/Blue Intersection</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox2">Show Blue-Red intersection</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                              <label class="form-check-label" for="inlineCheckbox1">Show Orange-Red intersection</label>
+                            </div>
+                            
+                        </div>
+				
+                    <div class="form-group">
+                                            
+                        
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox2">Dashed Orange Line</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                              <label class="form-check-label" for="inlineCheckbox1">Dashed Blue Line</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                              <label class="form-check-label" for="inlineCheckbox1">Dashed Red Line</label>
+                            </div>
+
+ 
+ 
+                      </div>		
+                      
+                   
+                   <hr />
+                   
+                    <a name="labels"></a>
+                    <h2>Labels</h2>
+                    
+                   <div class="row">
+                   
+                    <div class="col">
+                    <label for="exampleInputEmail1">X-axis</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="text">
+                    </div>
+                    
+                    <div class="col">
+                    <label for="exampleInputEmail1">Y-axis</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="text">
+                    </div>
+                    
+                    <div class="col">
+                    </div>
+                    
+                    </div>
+                      
+                   
+                   <hr />
+                   
+                   <div class="row">
+                   
+                    <div class="col">
+                    <label for="exampleInputEmail1">Blue Line</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="text">
+                   </div>
+                   
+                   <div class="col">
+                    <label for="exampleInputEmail1">Orange Line</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="text">
+                   </div>
+                   
+                   <div class="col">
+                    <label for="exampleInputEmail1">Red Line</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="text">
+                   </div>
+                   
+                    </div>
+                      
+                   
+                   <hr />
+                   
+                   <div class="row">
+                    <div class="col">
+                    <label for="exampleInputEmail1">Blue-Red intersection</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="text">
+                   </div>
+                    <div class="col">
+                  <label for="exampleInputEmail1">Blue-Red intersection vertical</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="text">
+                   </div>
+                    <div class="col">
+                    <label for="exampleInputEmail1">Blue-Red intersection horizontal</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="text">
+                   </div>
+                     </div>
+                    
+                      
+                   
+                   <hr />
+                   
+        <div class="row">
+        
+        
+            <div class="col">
+            
+                     <label for="exampleInputEmail1">Orange-Blue intersection</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="text">
+                    
+                    </div>
+      
+        
+            <div class="col">
+            
+                  <label for="exampleInputEmail1">Orange-Blue intersection vertical</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="text">
+	                   	                   </div>
+        
+            <div class="col">
+            
+                    <label for="exampleInputEmail1">Orange-Blue intersection horizontal</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="text">
+	                   </div>
+	                   
+	                   	                   </div>
+                      
+                   
+                   <hr />
+                   
+                   
+        <div class="row">
+      
+        
+            <div class="col">
+            
+                       <label for="exampleInputEmail1">Orange-Red intersection</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="text">
+	                   
+	                   	                   </div>
+        
+            <div class="col">
+            
+                   <label for="exampleInputEmail1">Orange-Red intersection vertical</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="text">
+	                   
+	                   	                   </div>
+        
+            <div class="col">
+            
+                     <label for="exampleInputEmail1">Orange-Red intersection horizontal</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="text">
+	                   
+	                   	                   </div>
+	                   </div>
+                   
+                   <hr />
+                   
+                   <a name="details"></a>
+                    <h2>Details</h2>
+                   
 					<div class="form-group">
+						<label for="exampleFormControlInput1">Title</label> 
+						<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Graph Title">
+					</div>
+				
+				
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Description</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"  placeholder="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed semper aliquam ante at iaculis."></textarea>
+                      </div>				
+				
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea2">Instructor Notes</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea2" rows="3"  placeholder="Donec in dapibus diam. Proin quis ultrices sapien. Fusce imperdiet sapien ex, nec pellentesque sapien malesuada sed. "></textarea>
+                      </div>				
+                   
+                   <hr />
+                   
+                   <a name="assignment">
+                   </a><h2>Assignment</h2>
+                   
+					<div class="form-group">
+						<label for="exampleFormControlSelect1">Type</label> 
+						<select class="form-control" id="exampleFormControlSelect1">
+							<option>Select one:</option>
+							<option>Labelling</option>
+							<option>Modification</option>
+							<option>Template</option>
+						</select>
+					</div>
+				
+                    <div class="form-group">
+                                            
+                        
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                              <label class="form-check-label" for="inlineCheckbox1">Display Feedback</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox2">Display Intersection</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                              <label class="form-check-label" for="inlineCheckbox1">Display Shadow (on Student View)</label>
+                            </div>
+                            
+                            </div>
+                            
+				
+                    <div class="form-group">
+                                            
+                        
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox2">Published</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                              <label class="form-check-label" for="inlineCheckbox1">Requires Submission</label>
+                            </div>
+
+                        </div>
+ 
+                      
+                   <hr />
+                   
+					<div class="form-group">
+                        <a href="view.html" class="btn btn-secondary">Download</a> 
                         <a href="view.html" class="btn btn-secondary">View</a> 
 					</div>
-					
+                      
+                   <hr />
+                   
 					<div class="form-group">
-                        <a href="#" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">Delete</a> 
                         <a href="view.html" class="btn btn-primary">Save</a> 
+                        <a href="#" class="btn btn-danger float-right" data-toggle="modal" data-target="#exampleModal">Delete</a> 
 					</div>
+					                                
 					
                     <!-- Modal -->
                     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
