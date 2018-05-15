@@ -19,6 +19,7 @@ h3, p.lead { font-weight: 600; }
 h3 { margin-top: 1em; }
 
 
+
 .lead { margin-bottom: 3em; }
 
 
@@ -27,8 +28,7 @@ p a, li a, h3 a { color: #0e48a1; }
 .btn-primary { background-color: #0e48a1; }
 
 
-.row-graph-template {margin-top: 2em;}
-.row-graph-template a img  {border: 2px solid #ccc;}
-.row-graph-template a:hover img  {border: 2px solid #0e48a1;}
+.card a img  {border: 2px solid #ccc;}
+.card  a:hover img  {border: 2px solid #0e48a1;}
 
 footer { margin: 3em 0em 3em 0em; }
