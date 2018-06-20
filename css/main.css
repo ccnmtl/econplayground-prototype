@@ -4211,6 +4211,10 @@ input[type="button"].btn-block {
     background-color: #007bff;
     border-color: #007bff; }
 
+  .list-group-item.active a {
+    color: #fff;
+}
+
 .list-group-flush .list-group-item {
   border-right: 0;
   border-left: 0;
